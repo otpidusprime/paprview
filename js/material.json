@@ -1,0 +1,1274 @@
+{
+    "materialcolors": [
+        {
+            "name": "red",
+            "spec": "50",
+            "hex": "FFEBEE"
+        },
+        {
+            "name": "red",
+            "spec": "100",
+            "hex": "FFCDD2"
+        },
+        {
+            "name": "red",
+            "spec": "200",
+            "hex": "EF9A9A"
+        },
+        {
+            "name": "red",
+            "spec": "300",
+            "hex": "E57373"
+        },
+        {
+            "name": "red",
+            "spec": "400",
+            "hex": "EF5350"
+        },
+        {
+            "name": "red",
+            "spec": "500",
+            "hex": "F44336"
+        },
+        {
+            "name": "red",
+            "spec": "600",
+            "hex": "E53935"
+        },
+        {
+            "name": "red",
+            "spec": "700",
+            "hex": "D32F2F"
+        },
+        {
+            "name": "red",
+            "spec": "800",
+            "hex": "C62828"
+        },
+        {
+            "name": "red",
+            "spec": "900",
+            "hex": "B71C1C"
+        },
+        {
+            "name": "red",
+            "spec": "a100",
+            "hex": "FF8A80"
+        },
+        {
+            "name": "red",
+            "spec": "a200",
+            "hex": "FF5252"
+        },
+        {
+            "name": "red",
+            "spec": "a400",
+            "hex": "FF1744"
+        },
+        {
+            "name": "red",
+            "spec": "a700",
+            "hex": "D50000"
+        },
+        {
+            "name": "pink",
+            "spec": "50",
+            "hex": "FCE4EC"
+        },
+        {
+            "name": "pink",
+            "spec": "100",
+            "hex": "F8BBD0"
+        },
+        {
+            "name": "pink",
+            "spec": "200",
+            "hex": "F48FB1"
+        },
+        {
+            "name": "pink",
+            "spec": "300",
+            "hex": "F06292"
+        },
+        {
+            "name": "pink",
+            "spec": "400",
+            "hex": "EC407A"
+        },
+        {
+            "name": "pink",
+            "spec": "500",
+            "hex": "E91E63"
+        },
+        {
+            "name": "pink",
+            "spec": "600",
+            "hex": "D81B60"
+        },
+        {
+            "name": "pink",
+            "spec": "700",
+            "hex": "C2185B"
+        },
+        {
+            "name": "pink",
+            "spec": "800",
+            "hex": "AD1457"
+        },
+        {
+            "name": "pink",
+            "spec": "900",
+            "hex": "880E4F"
+        },
+        {
+            "name": "pink",
+            "spec": "a100",
+            "hex": "FF80AB"
+        },
+        {
+            "name": "pink",
+            "spec": "a200",
+            "hex": "FF4081"
+        },
+        {
+            "name": "pink",
+            "spec": "a400",
+            "hex": "F50057"
+        },
+        {
+            "name": "pink",
+            "spec": "a700",
+            "hex": "C51162"
+        },
+        {
+            "name": "purple",
+            "spec": "50",
+            "hex": "F3E5F5"
+        },
+        {
+            "name": "purple",
+            "spec": "100",
+            "hex": "E1BEE7"
+        },
+        {
+            "name": "purple",
+            "spec": "200",
+            "hex": "CE93D8"
+        },
+        {
+            "name": "purple",
+            "spec": "300",
+            "hex": "BA68C8"
+        },
+        {
+            "name": "purple",
+            "spec": "400",
+            "hex": "AB47BC"
+        },
+        {
+            "name": "purple",
+            "spec": "500",
+            "hex": "9C27B0"
+        },
+        {
+            "name": "purple",
+            "spec": "600",
+            "hex": "8E24AA"
+        },
+        {
+            "name": "purple",
+            "spec": "700",
+            "hex": "7B1FA2"
+        },
+        {
+            "name": "purple",
+            "spec": "800",
+            "hex": "6A1B9A"
+        },
+        {
+            "name": "purple",
+            "spec": "900",
+            "hex": "4A148C"
+        },
+        {
+            "name": "purple",
+            "spec": "a100",
+            "hex": "EA80FC"
+        },
+        {
+            "name": "purple",
+            "spec": "a200",
+            "hex": "E040FB"
+        },
+        {
+            "name": "purple",
+            "spec": "a400",
+            "hex": "D500F9"
+        },
+        {
+            "name": "purple",
+            "spec": "a700",
+            "hex": "AA00FF"
+        },
+        {
+            "name": "deep purple",
+            "spec": "50",
+            "hex": "EDE7F6"
+        },
+        {
+            "name": "deep purple",
+            "spec": "100",
+            "hex": "D1C4E9"
+        },
+        {
+            "name": "deep purple",
+            "spec": "200",
+            "hex": "B39DDB"
+        },
+        {
+            "name": "deep purple",
+            "spec": "300",
+            "hex": "9575CD"
+        },
+        {
+            "name": "deep purple",
+            "spec": "400",
+            "hex": "7E57C2"
+        },
+        {
+            "name": "deep purple",
+            "spec": "500",
+            "hex": "673AB7"
+        },
+        {
+            "name": "deep purple",
+            "spec": "600",
+            "hex": "5E35B1"
+        },
+        {
+            "name": "deep purple",
+            "spec": "700",
+            "hex": "512DA8"
+        },
+        {
+            "name": "deep purple",
+            "spec": "800",
+            "hex": "4527A0"
+        },
+        {
+            "name": "deep purple",
+            "spec": "900",
+            "hex": "311B92"
+        },
+        {
+            "name": "deep purple",
+            "spec": "a100",
+            "hex": "B388FF"
+        },
+        {
+            "name": "deep purple",
+            "spec": "a200",
+            "hex": "7C4DFF"
+        },
+        {
+            "name": "deep purple",
+            "spec": "a400",
+            "hex": "651FFF"
+        },
+        {
+            "name": "deep purple",
+            "spec": "a700",
+            "hex": "6200EA"
+        },
+        {
+            "name": "indigo",
+            "spec": "50",
+            "hex": "E8EAF6"
+        },
+        {
+            "name": "indigo",
+            "spec": "100",
+            "hex": "C5CAE9"
+        },
+        {
+            "name": "indigo",
+            "spec": "200",
+            "hex": "9FA8DA"
+        },
+        {
+            "name": "indigo",
+            "spec": "300",
+            "hex": "7986CB"
+        },
+        {
+            "name": "indigo",
+            "spec": "400",
+            "hex": "5C6BC0"
+        },
+        {
+            "name": "indigo",
+            "spec": "500",
+            "hex": "3F51B5"
+        },
+        {
+            "name": "indigo",
+            "spec": "600",
+            "hex": "3949AB"
+        },
+        {
+            "name": "indigo",
+            "spec": "700",
+            "hex": "303F9F"
+        },
+        {
+            "name": "indigo",
+            "spec": "800",
+            "hex": "283593"
+        },
+        {
+            "name": "indigo",
+            "spec": "900",
+            "hex": "1A237E"
+        },
+        {
+            "name": "indigo",
+            "spec": "a100",
+            "hex": "8C9EFF"
+        },
+        {
+            "name": "indigo",
+            "spec": "a200",
+            "hex": "536DFE"
+        },
+        {
+            "name": "indigo",
+            "spec": "a400",
+            "hex": "3D5AFE"
+        },
+        {
+            "name": "indigo",
+            "spec": "a700",
+            "hex": "304FFE"
+        },
+        {
+            "name": "blue",
+            "spec": "50",
+            "hex": "E3F2FD"
+        },
+        {
+            "name": "blue",
+            "spec": "100",
+            "hex": "BBDEFB"
+        },
+        {
+            "name": "blue",
+            "spec": "200",
+            "hex": "90CAF9"
+        },
+        {
+            "name": "blue",
+            "spec": "300",
+            "hex": "64B5F6"
+        },
+        {
+            "name": "blue",
+            "spec": "400",
+            "hex": "42A5F5"
+        },
+        {
+            "name": "blue",
+            "spec": "500",
+            "hex": "2196F3"
+        },
+        {
+            "name": "blue",
+            "spec": "600",
+            "hex": "1E88E5"
+        },
+        {
+            "name": "blue",
+            "spec": "700",
+            "hex": "1976D2"
+        },
+        {
+            "name": "blue",
+            "spec": "800",
+            "hex": "1565C0"
+        },
+        {
+            "name": "blue",
+            "spec": "900",
+            "hex": "0D47A1"
+        },
+        {
+            "name": "blue",
+            "spec": "a100",
+            "hex": "82B1FF"
+        },
+        {
+            "name": "blue",
+            "spec": "a200",
+            "hex": "448AFF"
+        },
+        {
+            "name": "blue",
+            "spec": "a400",
+            "hex": "2979FF"
+        },
+        {
+            "name": "blue",
+            "spec": "a700",
+            "hex": "2962FF"
+        },
+        {
+            "name": "light blue",
+            "spec": "50",
+            "hex": "E1F5FE"
+        },
+        {
+            "name": "light blue",
+            "spec": "100",
+            "hex": "B3E5FC"
+        },
+        {
+            "name": "light blue",
+            "spec": "200",
+            "hex": "81D4FA"
+        },
+        {
+            "name": "light blue",
+            "spec": "300",
+            "hex": "4FC3F7"
+        },
+        {
+            "name": "light blue",
+            "spec": "400",
+            "hex": "29B6F6"
+        },
+        {
+            "name": "light blue",
+            "spec": "500",
+            "hex": "03A9F4"
+        },
+        {
+            "name": "light blue",
+            "spec": "600",
+            "hex": "039BE5"
+        },
+        {
+            "name": "light blue",
+            "spec": "700",
+            "hex": "0288D1"
+        },
+        {
+            "name": "light blue",
+            "spec": "800",
+            "hex": "0277BD"
+        },
+        {
+            "name": "light blue",
+            "spec": "900",
+            "hex": "01579B"
+        },
+        {
+            "name": "light blue",
+            "spec": "a100",
+            "hex": "80D8FF"
+        },
+        {
+            "name": "light blue",
+            "spec": "a200",
+            "hex": "40C4FF"
+        },
+        {
+            "name": "light blue",
+            "spec": "a400",
+            "hex": "00B0FF"
+        },
+        {
+            "name": "light blue",
+            "spec": "a700",
+            "hex": "0091EA"
+        },
+        {
+            "name": "cyan",
+            "spec": "50",
+            "hex": "E0F7FA"
+        },
+        {
+            "name": "cyan",
+            "spec": "100",
+            "hex": "B2EBF2"
+        },
+        {
+            "name": "cyan",
+            "spec": "200",
+            "hex": "80DEEA"
+        },
+        {
+            "name": "cyan",
+            "spec": "300",
+            "hex": "4DD0E1"
+        },
+        {
+            "name": "cyan",
+            "spec": "400",
+            "hex": "26C6DA"
+        },
+        {
+            "name": "cyan",
+            "spec": "500",
+            "hex": "00BCD4"
+        },
+        {
+            "name": "cyan",
+            "spec": "600",
+            "hex": "00ACC1"
+        },
+        {
+            "name": "cyan",
+            "spec": "700",
+            "hex": "0097A7"
+        },
+        {
+            "name": "cyan",
+            "spec": "800",
+            "hex": "00838F"
+        },
+        {
+            "name": "cyan",
+            "spec": "900",
+            "hex": "006064"
+        },
+        {
+            "name": "cyan",
+            "spec": "a100",
+            "hex": "84FFFF"
+        },
+        {
+            "name": "cyan",
+            "spec": "a200",
+            "hex": "18FFFF"
+        },
+        {
+            "name": "cyan",
+            "spec": "a400",
+            "hex": "00E5FF"
+        },
+        {
+            "name": "cyan",
+            "spec": "a700",
+            "hex": "00B8D4"
+        },
+        {
+            "name": "teal",
+            "spec": "50",
+            "hex": "E0F2F1"
+        },
+        {
+            "name": "teal",
+            "spec": "100",
+            "hex": "B2DFDB"
+        },
+        {
+            "name": "teal",
+            "spec": "200",
+            "hex": "80CBC4"
+        },
+        {
+            "name": "teal",
+            "spec": "300",
+            "hex": "4DB6AC"
+        },
+        {
+            "name": "teal",
+            "spec": "400",
+            "hex": "26A69A"
+        },
+        {
+            "name": "teal",
+            "spec": "500",
+            "hex": "009688"
+        },
+        {
+            "name": "teal",
+            "spec": "600",
+            "hex": "00897B"
+        },
+        {
+            "name": "teal",
+            "spec": "700",
+            "hex": "00796B"
+        },
+        {
+            "name": "teal",
+            "spec": "800",
+            "hex": "00695C"
+        },
+        {
+            "name": "teal",
+            "spec": "900",
+            "hex": "004D40"
+        },
+        {
+            "name": "teal",
+            "spec": "a100",
+            "hex": "A7FFEB"
+        },
+        {
+            "name": "teal",
+            "spec": "a200",
+            "hex": "64FFDA"
+        },
+        {
+            "name": "teal",
+            "spec": "a400",
+            "hex": "1DE9B6"
+        },
+        {
+            "name": "teal",
+            "spec": "a700",
+            "hex": "00BFA5"
+        },
+        {
+            "name": "green",
+            "spec": "50",
+            "hex": "E8F5E9"
+        },
+        {
+            "name": "green",
+            "spec": "100",
+            "hex": "C8E6C9"
+        },
+        {
+            "name": "green",
+            "spec": "200",
+            "hex": "A5D6A7"
+        },
+        {
+            "name": "green",
+            "spec": "300",
+            "hex": "81C784"
+        },
+        {
+            "name": "green",
+            "spec": "400",
+            "hex": "66BB6A"
+        },
+        {
+            "name": "green",
+            "spec": "500",
+            "hex": "4CAF50"
+        },
+        {
+            "name": "green",
+            "spec": "600",
+            "hex": "43A047"
+        },
+        {
+            "name": "green",
+            "spec": "700",
+            "hex": "388E3C"
+        },
+        {
+            "name": "green",
+            "spec": "800",
+            "hex": "2E7D32"
+        },
+        {
+            "name": "green",
+            "spec": "900",
+            "hex": "1B5E20"
+        },
+        {
+            "name": "green",
+            "spec": "a100",
+            "hex": "B9F6CA"
+        },
+        {
+            "name": "green",
+            "spec": "a200",
+            "hex": "69F0AE"
+        },
+        {
+            "name": "green",
+            "spec": "a400",
+            "hex": "00E676"
+        },
+        {
+            "name": "green",
+            "spec": "a700",
+            "hex": "00C853"
+        },
+        {
+            "name": "light green",
+            "spec": "50",
+            "hex": "F1F8E9"
+        },
+        {
+            "name": "light green",
+            "spec": "100",
+            "hex": "DCEDC8"
+        },
+        {
+            "name": "light green",
+            "spec": "200",
+            "hex": "C5E1A5"
+        },
+        {
+            "name": "light green",
+            "spec": "300",
+            "hex": "AED581"
+        },
+        {
+            "name": "light green",
+            "spec": "400",
+            "hex": "9CCC65"
+        },
+        {
+            "name": "light green",
+            "spec": "500",
+            "hex": "8BC34A"
+        },
+        {
+            "name": "light green",
+            "spec": "600",
+            "hex": "7CB342"
+        },
+        {
+            "name": "light green",
+            "spec": "700",
+            "hex": "689F38"
+        },
+        {
+            "name": "light green",
+            "spec": "800",
+            "hex": "558B2F"
+        },
+        {
+            "name": "light green",
+            "spec": "900",
+            "hex": "33691E"
+        },
+        {
+            "name": "light green",
+            "spec": "a100",
+            "hex": "CCFF90"
+        },
+        {
+            "name": "light green",
+            "spec": "a200",
+            "hex": "B2FF59"
+        },
+        {
+            "name": "light green",
+            "spec": "a400",
+            "hex": "76FF03"
+        },
+        {
+            "name": "light green",
+            "spec": "a700",
+            "hex": "64DD17"
+        },
+        {
+            "name": "lime",
+            "spec": "50",
+            "hex": "F9FBE7"
+        },
+        {
+            "name": "lime",
+            "spec": "100",
+            "hex": "F0F4C3"
+        },
+        {
+            "name": "lime",
+            "spec": "200",
+            "hex": "E6EE9C"
+        },
+        {
+            "name": "lime",
+            "spec": "300",
+            "hex": "DCE775"
+        },
+        {
+            "name": "lime",
+            "spec": "400",
+            "hex": "D4E157"
+        },
+        {
+            "name": "lime",
+            "spec": "500",
+            "hex": "CDDC39"
+        },
+        {
+            "name": "lime",
+            "spec": "600",
+            "hex": "C0CA33"
+        },
+        {
+            "name": "lime",
+            "spec": "700",
+            "hex": "AFB42B"
+        },
+        {
+            "name": "lime",
+            "spec": "800",
+            "hex": "9E9D24"
+        },
+        {
+            "name": "lime",
+            "spec": "900",
+            "hex": "827717"
+        },
+        {
+            "name": "lime",
+            "spec": "a100",
+            "hex": "F4FF81"
+        },
+        {
+            "name": "lime",
+            "spec": "a200",
+            "hex": "EEFF41"
+        },
+        {
+            "name": "lime",
+            "spec": "a400",
+            "hex": "C6FF00"
+        },
+        {
+            "name": "lime",
+            "spec": "a700",
+            "hex": "AEEA00"
+        },
+        {
+            "name": "yellow",
+            "spec": "50",
+            "hex": "FFFDE7"
+        },
+        {
+            "name": "yellow",
+            "spec": "100",
+            "hex": "FFF9C4"
+        },
+        {
+            "name": "yellow",
+            "spec": "200",
+            "hex": "FFF59D"
+        },
+        {
+            "name": "yellow",
+            "spec": "300",
+            "hex": "FFF176"
+        },
+        {
+            "name": "yellow",
+            "spec": "400",
+            "hex": "FFEE58"
+        },
+        {
+            "name": "yellow",
+            "spec": "500",
+            "hex": "FFEB3B"
+        },
+        {
+            "name": "yellow",
+            "spec": "600",
+            "hex": "FDD835"
+        },
+        {
+            "name": "yellow",
+            "spec": "700",
+            "hex": "FBC02D"
+        },
+        {
+            "name": "yellow",
+            "spec": "800",
+            "hex": "F9A825"
+        },
+        {
+            "name": "yellow",
+            "spec": "900",
+            "hex": "F57F17"
+        },
+        {
+            "name": "yellow",
+            "spec": "a100",
+            "hex": "FFFF8D"
+        },
+        {
+            "name": "yellow",
+            "spec": "a200",
+            "hex": "FFFF00"
+        },
+        {
+            "name": "yellow",
+            "spec": "a400",
+            "hex": "FFEA00"
+        },
+        {
+            "name": "yellow",
+            "spec": "a700",
+            "hex": "FFD600"
+        },
+        {
+            "name": "amber",
+            "spec": "50",
+            "hex": "FFF8E1"
+        },
+        {
+            "name": "amber",
+            "spec": "100",
+            "hex": "FFECB3"
+        },
+        {
+            "name": "amber",
+            "spec": "200",
+            "hex": "FFE082"
+        },
+        {
+            "name": "amber",
+            "spec": "300",
+            "hex": "FFD54F"
+        },
+        {
+            "name": "amber",
+            "spec": "400",
+            "hex": "FFCA28"
+        },
+        {
+            "name": "amber",
+            "spec": "500",
+            "hex": "FFC107"
+        },
+        {
+            "name": "amber",
+            "spec": "600",
+            "hex": "FFB300"
+        },
+        {
+            "name": "amber",
+            "spec": "700",
+            "hex": "FFA000"
+        },
+        {
+            "name": "amber",
+            "spec": "800",
+            "hex": "FF8F00"
+        },
+        {
+            "name": "amber",
+            "spec": "900",
+            "hex": "FF6F00"
+        },
+        {
+            "name": "amber",
+            "spec": "a100",
+            "hex": "FFE57F"
+        },
+        {
+            "name": "amber",
+            "spec": "a200",
+            "hex": "FFD740"
+        },
+        {
+            "name": "amber",
+            "spec": "a400",
+            "hex": "FFC400"
+        },
+        {
+            "name": "amber",
+            "spec": "a700",
+            "hex": "FFAB00"
+        },
+        {
+            "name": "orange",
+            "spec": "50",
+            "hex": "FFF3E0"
+        },
+        {
+            "name": "orange",
+            "spec": "100",
+            "hex": "FFE0B2"
+        },
+        {
+            "name": "orange",
+            "spec": "200",
+            "hex": "FFCC80"
+        },
+        {
+            "name": "orange",
+            "spec": "300",
+            "hex": "FFB74D"
+        },
+        {
+            "name": "orange",
+            "spec": "400",
+            "hex": "FFA726"
+        },
+        {
+            "name": "orange",
+            "spec": "500",
+            "hex": "FF9800"
+        },
+        {
+            "name": "orange",
+            "spec": "600",
+            "hex": "FB8C00"
+        },
+        {
+            "name": "orange",
+            "spec": "700",
+            "hex": "F57C00"
+        },
+        {
+            "name": "orange",
+            "spec": "800",
+            "hex": "EF6C00"
+        },
+        {
+            "name": "orange",
+            "spec": "900",
+            "hex": "E65100"
+        },
+        {
+            "name": "orange",
+            "spec": "a100",
+            "hex": "FFD180"
+        },
+        {
+            "name": "orange",
+            "spec": "a200",
+            "hex": "FFAB40"
+        },
+        {
+            "name": "orange",
+            "spec": "a400",
+            "hex": "FF9100"
+        },
+        {
+            "name": "orange",
+            "spec": "a700",
+            "hex": "FF6D00"
+        },
+        {
+            "name": "deep orange",
+            "spec": "50",
+            "hex": "FBE9E7"
+        },
+        {
+            "name": "deep orange",
+            "spec": "100",
+            "hex": "FFCCBC"
+        },
+        {
+            "name": "deep orange",
+            "spec": "200",
+            "hex": "FFAB91"
+        },
+        {
+            "name": "deep orange",
+            "spec": "300",
+            "hex": "FF8A65"
+        },
+        {
+            "name": "deep orange",
+            "spec": "400",
+            "hex": "FF7043"
+        },
+        {
+            "name": "deep orange",
+            "spec": "500",
+            "hex": "FF5722"
+        },
+        {
+            "name": "deep orange",
+            "spec": "600",
+            "hex": "F4511E"
+        },
+        {
+            "name": "deep orange",
+            "spec": "700",
+            "hex": "E64A19"
+        },
+        {
+            "name": "deep orange",
+            "spec": "800",
+            "hex": "D84315"
+        },
+        {
+            "name": "deep orange",
+            "spec": "900",
+            "hex": "D84315"
+        },
+        {
+            "name": "deep orange",
+            "spec": "a100",
+            "hex": "FF9E80"
+        },
+        {
+            "name": "deep orange",
+            "spec": "a200",
+            "hex": "FF6E40"
+        },
+        {
+            "name": "deep orange",
+            "spec": "a400",
+            "hex": "FF3D00"
+        },
+        {
+            "name": "deep orange",
+            "spec": "a700",
+            "hex": "DD2C00"
+        },
+        {
+            "name": "brown",
+            "spec": "50",
+            "hex": "EFEBE9"
+        },
+        {
+            "name": "brown",
+            "spec": "100",
+            "hex": "D7CCC8"
+        },
+        {
+            "name": "brown",
+            "spec": "200",
+            "hex": "BCAAA4"
+        },
+        {
+            "name": "brown",
+            "spec": "300",
+            "hex": "A1887F"
+        },
+        {
+            "name": "brown",
+            "spec": "400",
+            "hex": "8D6E63"
+        },
+        {
+            "name": "brown",
+            "spec": "500",
+            "hex": "795548"
+        },
+        {
+            "name": "brown",
+            "spec": "600",
+            "hex": "6D4C41"
+        },
+        {
+            "name": "brown",
+            "spec": "700",
+            "hex": "5D4037"
+        },
+        {
+            "name": "brown",
+            "spec": "800",
+            "hex": "4E342E"
+        },
+        {
+            "name": "brown",
+            "spec": "900",
+            "hex": "3E2723"
+        },
+        {
+            "name": "blue grey",
+            "spec": "50",
+            "hex": "ECEFF1"
+        },
+        {
+            "name": "blue grey",
+            "spec": "100",
+            "hex": "CFD8DC"
+        },
+        {
+            "name": "blue grey",
+            "spec": "200",
+            "hex": "B0BEC5"
+        },
+        {
+            "name": "blue grey",
+            "spec": "300",
+            "hex": "90A4AE"
+        },
+        {
+            "name": "blue grey",
+            "spec": "400",
+            "hex": "78909C"
+        },
+        {
+            "name": "blue grey",
+            "spec": "500",
+            "hex": "607D8B"
+        },
+        {
+            "name": "blue grey",
+            "spec": "600",
+            "hex": "546E7A"
+        },
+        {
+            "name": "blue grey",
+            "spec": "700",
+            "hex": "455A64"
+        },
+        {
+            "name": "blue grey",
+            "spec": "800",
+            "hex": "37474F"
+        },
+        {
+            "name": "blue grey",
+            "spec": "900",
+            "hex": "263238"
+        },
+        {
+            "name": "grey",
+            "spec": "50",
+            "hex": "FAFAFA"
+        },
+        {
+            "name": "grey",
+            "spec": "100",
+            "hex": "F5F5F5"
+        },
+        {
+            "name": "grey",
+            "spec": "200",
+            "hex": "EEEEEE"
+        },
+        {
+            "name": "grey",
+            "spec": "300",
+            "hex": "E0E0E0"
+        },
+        {
+            "name": "grey",
+            "spec": "400",
+            "hex": "BDBDBD"
+        },
+        {
+            "name": "grey",
+            "spec": "500",
+            "hex": "9E9E9E"
+        },
+        {
+            "name": "grey",
+            "spec": "600",
+            "hex": "757575"
+        },
+        {
+            "name": "grey",
+            "spec": "700",
+            "hex": "616161"
+        },
+        {
+            "name": "grey",
+            "spec": "800",
+            "hex": "424242"
+        },
+        {
+            "name": "grey",
+            "spec": "900",
+            "hex": "212121"
+        }
+    ]
+}

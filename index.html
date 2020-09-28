@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Sudipto Mondal">
+  <meta name="description" content="Get inspired and create something beautiful.">
+  <meta name="keywords" content="Graphic Design,Animation,Illustrator,Iconography,Typography,Web Designer,Web Developer,Artist,HTML,CSS,JavaScript,Color,Colors,Colour,Colours,ColourLovers,Ambiance,Palatte,Theme">
+  <meta name="viewport" content="width=device-width">
+  <meta name="theme-color" content="#e3e3e3" for="mainapp">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <title>PAPRVIEW</title>
+
+  <link rel="stylesheet" href="css/reset.min.css">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel='stylesheet prefetch' href='css/font-css/weather-icons.min.css'>
+  <link rel='stylesheet' href='css/scroll-theme.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div class="container">
+
+    <div class="navbar">
+
+      <div class="mobile_menu_ctrl">
+        <i class="material-icons">apps</i>
+      </div>
+
+      <div class="nav-logo">
+        <i class="material-icons">format_color_fill</i>
+        <span class="logo-light">PAPR</span><span class="logo-bold">VIEW</span>
+      </div>
+
+      <div class="web_app_sys_ctrls">
+        <div class="sys_ctrl sys_lights">
+          <i class="material-icons" id="system_lights" title="Day/Night">brightness_2</i>
+        </div>
+        <!--<div class="sys_ctrl sys_save">
+          <i class="material-icons" id="save_colors" title="Save Colors">save</i>
+        </div>-->
+        <div class="sys_ctrl sys_reset">
+          <i class="material-icons" id="reset_colors" title="Reset Everything">format_color_reset</i>
+        </div>
+      </div>
+      <!--end app system controls-->
+
+      <div class="mob_sidebar_puller">
+        <div class="mob_puller_ctrl">
+          <i class="material-icons">chevron_left</i>
+        </div>
+      </div>
+      <!--end mobile color tray puller-->
+
+      <div class="menu_wrapper">
+        <ul class="web_app_ctrls">
+          
+          <!--<li class="mobile_cover">
+            <i class="material-icons">format_color_fill</i>
+            <i class="material-icons mob_menu_close">chevron_left</i>
+          </li>-->
+
+          <li class="has_sub_ctrls" id="sys_pref">
+            <i class="material-icons app_lay_con">view_carousel</i>
+            <span class="app_ctrl_text">PREFERENCES</span>
+
+            <ul class="web_app_sub_ctrls_area" id="sub_ctrl_pref">
+
+              <li class="sub_ctrl_lay_select">
+                <div class="sub_ctrl_header">
+                  App Layout
+                </div>
+                <div class="sub_ctrl_app_layout">
+                  <div class="app-1 lay_select active_selection">
+                    <div class="lay_select_toolbar lay_select_toolbar_normal"></div>
+                    <div class="lay_select_fab lay_select_fab_btm"></div>
+                  </div>
+                  <div class="app-2 lay_select">
+                    <div class="lay_select_toolbar lay_select_toolbar_ext"></div>
+                    <div class="lay_select_fab lay_select_fab_mid"></div>
+                  </div>
+                  <div class="app-3 lay_select">
+                    <div class="lay_select_toolbar lay_select_toolbar_normal"></div>
+                    <div class="lay_select_fab lay_select_fab_btm"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <hr class="sub_ctrl_sep" />
+              </li>
+
+              <li class="sub_ctrl_app_base_theme_select">
+                <div class="sub_ctrl_header">
+                  App Base Theme
+                </div>
+                <div class="sub_ctrl_app_base_theme">
+                  <div class="app_base_theme_select">
+                    <div id="circle_1" class="app_base_theme_circle circle_1 active_selection"></div>
+                    <div class="app_base_theme_name">LIGHT</div>
+                  </div>
+                  <div class="app_base_theme_select">
+                    <div id="circle_2" class="app_base_theme_circle circle_2"></div>
+                    <div class="app_base_theme_name">DARK</div>
+                  </div>
+                  <div class="app_base_theme_select">
+                    <div id="circle_3" class="app_base_theme_circle circle_3"></div>
+                    <div class="app_base_theme_name">AMOLED</div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+
+          </li>
+          <li class="has_sub_ctrls" id="sys_add_color">
+            <i class="material-icons">color_lens</i>
+            <span class="app_ctrl_text">ADD COLOR</span>
+
+            <ul class="web_app_sub_ctrls_area" id="sub_ctrl_add_color">
+
+              <li class="sub_ctrl_lay_select">
+                <div class="sub_ctrl_header">
+                  Add your own hex/rgb/hsl
+                </div>
+                <div class="usr_color_input_area">
+                  <form method="post" action="javascript:void(0);">
+                    <input type="text" name="add-color" class="add_color_input" spellcheck="false" />
+                    <input type="submit" value="add color" class="add_color_submit" />
+                  </form>
+                </div>
+                <div class="info_msg">
+                  Colors with alpha channels for transparency like RGBA or HSLA are not allowed.
+                </div>
+                <div class="sub_menu_area_err_msg">
+                  <i class="material-icons">error</i> <span></span>
+                </div>
+              </li>
+
+            </ul>
+
+          </li>
+          <li>
+            <i class="material-icons">save</i>
+            <span class="app_ctrl_text">SAVED</span>
+          </li>
+          <li id="about_menu">
+            <i class="material-icons">info</i>
+            <span class="app_ctrl_text">ABOUT</span>
+          </li>
+        </ul>
+      </div>
+      <!--end desktop menu-->
+
+      <ul class="web_app_sub_ctrls_area_mobile" id="sys_mobile_pref">
+
+        <li class="sub_ctrl_lay_select">
+          <div class="sub_ctrl_header">
+            App Layout
+          </div>
+          <div class="sub_ctrl_app_layout">
+            <div class="app-1 lay_select active_selection">
+              <div class="lay_select_toolbar lay_select_toolbar_normal"></div>
+              <div class="lay_select_fab lay_select_fab_btm"></div>
+            </div>
+            <div class="app-2 lay_select">
+              <div class="lay_select_toolbar lay_select_toolbar_ext"></div>
+              <div class="lay_select_fab lay_select_fab_mid"></div>
+            </div>
+            <div class="app-3 lay_select">
+              <div class="lay_select_toolbar lay_select_toolbar_normal"></div>
+              <div class="lay_select_fab lay_select_fab_btm"></div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <hr class="sub_ctrl_sep" />
+        </li>
+
+        <li class="sub_ctrl_app_base_theme_select">
+          <div class="sub_ctrl_header">
+            App Base Theme
+          </div>
+          <div class="sub_ctrl_app_base_theme">
+            <div class="app_base_theme_select">
+              <div id="circle_1" class="app_base_theme_circle circle_1 active_selection"></div>
+              <div class="app_base_theme_name">LIGHT</div>
+            </div>
+            <div class="app_base_theme_select">
+              <div id="circle_2" class="app_base_theme_circle circle_2"></div>
+              <div class="app_base_theme_name">DARK</div>
+            </div>
+            <div class="app_base_theme_select">
+              <div id="circle_3" class="app_base_theme_circle circle_3"></div>
+              <div class="app_base_theme_name">AMOLED</div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+      <!--end mobile prefrences controls-->
+
+      <ul class="web_app_sub_ctrls_area_mobile" id="sys_mobile_add_color">
+
+            <li class="sub_ctrl_lay_select">
+              <div class="sub_ctrl_header">
+                Add your own hex/rgb/hsl
+              </div>
+              <div class="usr_color_input_area">
+                <form method="post" action="javascript:void(0);">
+                  <input type="text" name="add-color" class="add_color_input" spellcheck="false" />
+                  <input type="submit" value="add color" class="add_color_submit" />
+                </form>
+              </div>
+            </li>
+
+      </ul>
+      <!--end mobile add color controls-->
+
+    </div>
+
+    <div class="app_layout_wrapper">
+
+      <div class="app_layout_holder">
+
+        <div class="app_layout">
+
+          <div id="app_layout_normal">
+
+            <div class="app_statusbar color_area">
+            </div>
+
+            <div class="app_toolbar toolbar_normal color_area">
+              <div class="app_fab fab_pos_btm color_area_greedy">
+              </div>
+            </div>
+
+            <div class="app_navbar color_area">
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="look_of_disapproval">
+        <div class="dis_art">&#3232;_&#3232;</div>
+        <div class="dis_msg">seriously?!</div>
+      </div>
+
+    </div>
+
+    <div class="sidebar_wrapper">
+      
+      <!--<div class="sidebar-section-title nosel" id="custom_colors_header"><i class="material-icons">color_lens</i> <span>CUSTOM COLORS</span></div>
+
+      <ul class="colorbox-custom"></ul>
+
+      <div class="sidebar-section-title nosel"><i class="material-icons">layers</i> <span>MATERIAL COLORS</span></div>-->
+
+      <ul class="colorbox"></ul>
+
+    </div>
+    <!--end sidebar wrapper-->
+
+    <div class="window-overlay hidethis">
+
+      <div class="window hidethis" id="app-info">
+
+        <div class="window-toolbar">
+          <div class="window-title nosel">ABOUT PAPR<strong>VIEW</strong></div>
+          <div class="close-window nosel">
+            <i class="material-icons">close</i>
+          </div>
+        </div>
+
+        <div class="window-content-wrapper" data-simplebar>
+          <div class="window-content about-window-content">
+            <div class="about-window-cover nosel">
+              <i class="material-icons">format_color_fill</i>
+              <span class="logo-abt-light">PAPR</span><span class="logo-bold">VIEW</span>
+              <span class="about-version">v0.1 BETA</span>
+            </div>
+            <p>If you are a Developer, Designer or an Artist - you know how frustrating choosing the perfect colors can be sometimes. At the peak of this frustration you can be really dangerous to others. So, to keep the rest of us safe - <strong>ambiance.</strong> was born.</p>
+            <p><strong>ambiance.</strong> generates beautiful color palettes so that you use them<strong>*</strong> on that awesome Illustration, on that really fancy and modern User Interface or just stare at them in peace.</p>
+            <p>If you are busy procrastinating, you can save the palettes to Ambiance Box. Whether you close the browser or refresh the page, Ambiance Box will keep the palettes and won't let them go anywhere unless you want them to.</p>
+            <p><strong>*ambiance.</strong> uses the <a href="http://www.colourlovers.com" target="_blank">COLOURlovers</a> API to generate palettes. So please read the license of the palettes before using them.</p>
+            <p style="font-size: 12px; vertical-align:middle;"><strong>MADE WITH <i class="material-icons" style="font-size: 14px; vertical-align:sub;">favorite</i> BY <a href="http://somethingjustlikethis.com/" target="_blank">THIS GUY</a></strong>.</p>
+            <p>If you are a Developer, Designer or an Artist - you know how frustrating choosing the perfect colors can be sometimes. At the peak of this frustration you can be really dangerous to others. So, to keep the rest of us safe - <strong>ambiance.</strong> was born.</p>
+            <p><strong>ambiance.</strong> generates beautiful color palettes so that you use them<strong>*</strong> on that awesome Illustration, on that really fancy and modern User Interface or just stare at them in peace.</p>
+            <p>If you are busy procrastinating, you can save the palettes to Ambiance Box. Whether you close the browser or refresh the page, Ambiance Box will keep the palettes and won't let them go anywhere unless you want them to.</p>
+            <p><strong>*ambiance.</strong> uses the <a href="http://www.colourlovers.com" target="_blank">COLOURlovers</a> API to generate palettes. So please read the license of the palettes before using them.</p>
+            <p style="font-size: 12px; vertical-align:middle;"><strong>MADE WITH <i class="material-icons" style="font-size: 14px; vertical-align:sub;">favorite</i> BY <a href="http://somethingjustlikethis.com/" target="_blank">THIS GUY</a></strong>.</p>
+          </div>
+        </div>
+
+      </div>
+      <!--end about window-->
+
+    </div>
+    <!--end window overlay-->
+
+</div>
+  <!--end app container-->
+
+<script src='js/jquery.min.js'></script>
+<script src='js/jquery-ui.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.2/angular.js"></script>
+<script src='js/simplebar.js'></script>
+<script src="js/index.js"></script>
+
+</body>
+
+</html>
